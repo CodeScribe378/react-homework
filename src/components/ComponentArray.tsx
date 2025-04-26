@@ -2,7 +2,6 @@ import {IArrayCourses} from "../data/IArrayCourses.ts";
 import {FC} from "react";
 import './ComponentArray.css'
 
-
 type TypeComponentArray={
     course: IArrayCourses
 }
