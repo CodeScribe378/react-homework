@@ -1,0 +1,17 @@
+body{
+    background-color: floralwhite;
+}
+
+ul{
+    list-style-type: none;
+}
+p{
+    margin: 5px;
+}
+
+li{
+    margin-right: 60px;
+}
+img{
+    width: 300px;
+}
