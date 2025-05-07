@@ -9,7 +9,10 @@ type TypeTags={
 const ComponentTags: FC<TypeTags> = ({tag})=>{
     return(
         <div>
-            <div>{tag}</div>
+            <ul>
+                <li> {tag} </li>
+            </ul>
+
         </div>
     )
 }

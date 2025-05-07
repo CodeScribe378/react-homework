@@ -1,4 +1,4 @@
-import ComponentUsersDJ from "../ComponentUsersDJ/ComponentUsersDJ.tsx";
+import ComponentUsersDJ from "../Components/ComponentsUsersDJ/ComponentUsers.DJ.tsx";
 
 
 const UsersPageDummyJs =()=>{
