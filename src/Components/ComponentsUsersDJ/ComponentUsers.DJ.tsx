@@ -10,7 +10,7 @@ const ComponentUsersDJ =()=>{
     useEffect(() => {
         GetUsersDJ()
             .then((response)=>setUsers(response))
-    }, [users]);
+    }, []);
 
 
     return (

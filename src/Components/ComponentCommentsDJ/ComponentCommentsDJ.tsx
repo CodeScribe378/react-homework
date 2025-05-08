@@ -11,7 +11,7 @@ const ComponentCommentsDJ =()=>{
             .then((response)=>setComment(response))
 
 
-    }, [comments]);
+    }, []);
 
     return(
         <div>

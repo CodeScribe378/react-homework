@@ -11,7 +11,7 @@ const ComponentPostsDJ =()=>{
 
         GetPostsDJ()
             .then((response)=>setPosts(response))
-    }, [posts])
+    }, [])
 
     return(
         <div>{posts.map((post)=><ComponentPostDJ key={post.id} post={post}/>)}</div>

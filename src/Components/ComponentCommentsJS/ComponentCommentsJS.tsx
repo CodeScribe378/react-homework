@@ -12,7 +12,7 @@ const ComponentCommentsJS = ()=>{
         GetCommentsJS()
             .then((response)=>setComments(response))
 
-    }, [comments]);
+    }, []);
 
     return(
         <div>

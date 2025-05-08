@@ -10,7 +10,7 @@ const ComponentPosts =()=>{
     useEffect(()=>{
         GetPostsJS()
             .then((response)=>setPosts(response))
-    }, [posts])
+    }, [])
 
 
     return(
