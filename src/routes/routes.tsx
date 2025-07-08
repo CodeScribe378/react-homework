@@ -7,7 +7,7 @@ import CommentsPage from "../pages/CommentsPage.tsx";
 import ComplexPage from "../pages/ComplexPage.tsx";
 export const routes =createBrowserRouter([
     {path:'/', element: <MainLayoutComponent/>, children:[
-            {path: 'users', element: <UsersPage/>},
+            {index: true, element: <UsersPage/>},
             {path: 'posts', element: <PostsPage/>},
             {path: 'comments', element: <CommentsPage/>},
             {path: 'complex', element: <ComplexPage/>},

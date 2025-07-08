@@ -7,6 +7,7 @@ type CommentType={
 }
 
 const CommentComponent: FC<CommentType> =({comment})=>{
+    console.log(comment)
     return(
         <div>
             <h4>{comment.name}</h4>
